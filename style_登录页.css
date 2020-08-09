@@ -1,0 +1,179 @@
+        /* 清除网页元素内外边距 */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* 定义背景图片 和定义默认字体*/
+        body {
+            width: 100%;
+            background-image: url(images/形状103拷贝.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            font-family: Microsoft YaHei; 
+            
+        }
+        /* 定义中间白色盒子大小和位置 */
+        .box {
+           width: 875px;
+           height: 500px;
+           background-color: #fff;
+           margin: 100px auto;
+            
+        }
+         /* 登录页面的css */
+        .box div{
+            float: left;
+        }
+        .box_right{
+            width: 421px;
+            height: 450px;
+            position: relative;
+            top: 0px;
+            right: -23px;
+        }
+/* 第一个logo图片的位置,放置图片的盒子大小 */
+
+        .box .logo img{
+
+            position: relative;
+            top: 32px;
+            left: 19px;
+        }
+        /* 放置第二个logo2图片的盒子大小 */
+        .logo2{
+            width: 236px;
+            height: 165px;
+          
+        }
+        /* logo图片位置 */
+        .box .logo2 img{
+            position: relative;
+            top: 40px;
+            left: 158px;
+        }
+        .lianjie{
+            position: relative;
+            bottom: 344px;
+            right: -65px;
+                      
+        }
+        .lianjie span a{
+            font-size: 12px;
+            color: #a9a7a7;
+            text-decoration: none;
+            border: 0;
+        }
+        /* 立即注册的字体位置 */
+        .weizhi{
+            position: relative;
+            right: -188px;
+
+        }
+        /* 填写框大小 */
+        .register{
+            width: 340px;
+            height: 37px;
+            /* 取消边框 */
+            border: none;
+            
+            /* 左内边距  */
+            padding-left: 38px;
+            /* 下外边距 */
+            margin-bottom: 20px;
+            
+        }
+        .register input{
+            width: 280px;
+            height: 33px;
+            border: none;
+            
+            /* 填写框下边框设置 */
+            border-bottom: 1px solid #858383;
+            
+        }
+       input :placeholder{
+           /* 提示文字颜色 */
+            color: #f0efef;
+       }
+       
+        img{
+           border: 0;
+        }
+        /* 定义“3D宿舍设计”字体颜色 */
+        .name{
+            position: relative;
+            top: 40px;
+            left: 155px;
+            color: #ffc746;
+        }
+        .register span{
+            border: none;
+            /* 填写框下边框设置 */
+            border-bottom: 1px solid #858383;
+            /* 盒子位置，设置与填写框贴合 */
+            position: relative;
+            bottom: -8px;
+            right: -5px;
+        }
+        .anjian{ /* 登录按钮 */
+            width: 300px;
+            height: 60px;
+            position: relative;
+            top: -304px;
+            right: 6px;
+
+        }
+        .anjian a{
+            display: block;
+            width: 200px;
+            height: 50px;
+            background-color: #00b7ee;
+            border-radius: 25px;
+            color: #fefefe;
+            text-align: center;
+            line-height: 50px;
+            text-decoration: none;
+        }
+        .box_header{    /* 放置“第三方登录，三个图标的盒子 */
+        position: relative;
+            top: -326px;
+            right: -2px;
+
+    }
+        /* 登录页面的css */
+        .header {
+            width: 400px;
+            height: 36px;
+            line-height: 36px;
+            border: 0;
+            text-align: center;
+            position: relative;
+            top: 18px;
+            right: -5px;
+        }
+/* 文字两边的直线 */
+        .line {
+            display: inline-block;
+            width: 100px;
+            border-top: 1px solid #dadada;
+            vertical-align: 5px;
+        }
+        /* 文字颜色 */
+        .text{
+            color: #c4c3c3;
+        }
+        /* 第三方的三个图标盒子 */
+        .third{
+            position: relative;/* 盒子的定位 */
+            top: 23px;
+            right: -119px;
+        }
+        /* 第一个盒子的右外边距 */
+        .distance_right{
+            margin-right: 22px;
+        }
+        /* 第三的盒子的左外边距 */
+        .distance_life{
+            margin-left: 22px;
+        }
